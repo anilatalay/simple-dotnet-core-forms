@@ -1,0 +1,31 @@
+﻿@model ContactFormModel
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple Form</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css"/>
+</head>
+<body>
+
+<br/>
+
+<div class="row">
+    <div class="col-sm-3"></div>
+    <div class="col-sm-6">
+        <div class="card">
+            <div class="card-header">
+                Contact Form Example [<a asp-action="Index">Ekle</a>] [<a asp-action="List">Liste</a>]
+            </div>
+            <div class="card-body">
+                <h4>Thanks <b>@Model.Name</b>!</h4>
+                <hr/>
+            </div>
+        </div>
+    </div>
+    <div class="col-sm-3"></div>
+</div>
+
+</body>
+</html>
