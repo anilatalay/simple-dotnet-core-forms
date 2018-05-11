@@ -1,1 +1,5 @@
-# simple-dotnet-core-forms
+# Simple Dotnet Core Forms
+
+## Install
+
+     $ dotnet run
